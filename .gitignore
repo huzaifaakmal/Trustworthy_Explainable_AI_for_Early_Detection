@@ -1,3 +1,17 @@
-100_Batches_IndPenSim_V3.csv
-100_Batches_IndPenSim_V3.csv.zip
+# Jupyter Checkpoints
 .ipynb_checkpoints/
+
+# Large Datasets & Archives
+*.csv
+*.parquet
+*.tar.gz
+*.zip
+!100_Batches_IndPenSim_Statistics.csv
+
+# Large Model Weights or Binary Cache
+*.h5
+*.pkl
+*.npy
+
+# Temporary / Old Files
+*.OLD
